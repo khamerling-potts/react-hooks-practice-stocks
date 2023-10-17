@@ -12,3 +12,13 @@ function App() {
 }
 
 export default App;
+
+/*
+App
+  MainContainer (stocks state, portfolio state, filter and sort state for stocks to display)
+    SearchBar (update filter/sort state)
+    StockContainer (add to portfolio state)
+      Stock
+    PortfolioContainer
+      Stock (delete from portfolio state)
+*/
